@@ -11,9 +11,12 @@ Tools & Technologies Used:
  - Excel (Data cleaning and inspection)
 
 Dataset:
-Source: Publicly crawled Instagram data (March 2019)
-Rows: 576
-Target Variable: fake (1 = Fake, 0 = Genuine)
+Source: 
+ - Publicly crawled Instagram data (March 2019)
+Rows:
+ - 576
+Target Variable:
+ - fake (1 = Fake, 0 = Genuine)
 Key Features:
  - profile_pic
  - #followers, #follows, #posts
@@ -22,10 +25,10 @@ Key Features:
  - nums/length username, fullname words
 
  Machine Learning Models:
- (i) Decision Tree Classifier
+ Decision Tree Classifier
       - Accuracy: 87%
       - Easy to visualize and interpret.
-(ii) Random Forest Classifier
+ Random Forest Classifier
       - Accuracy: 94.1%
       - High precision and recall
       - Feature importance used for interpretation.
